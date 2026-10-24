@@ -1,9 +1,17 @@
-// Latihan 4: Percabangan if-else
+let pilihan = prompt(
+    "Pilih menu:\n1. Nasi Goreng\n2. Mie Goreng\n3. Bakso"
+);
 
-let nilai = Number(prompt("Masukkan nilai kamu:"));
-
-if (nilai >= 75) {
-    alert("Selamat, kamu lulus!");
-} else {
-    alert("Maaf, kamu belum lulus.");
+switch (pilihan) {
+    case "1":
+        alert("Kamu memilih Nasi Goreng");
+        break;
+    case "2":
+        alert("Kamu memilih Mie Goreng");
+        break;
+    case "3":
+        alert("Kamu memilih Bakso");
+        break;
+    default:
+        alert("Pilihan tidak tersedia");
 }
