@@ -1,18 +1,9 @@
-// Latihan 3: Function dan Operasi Aritmetika
+// Latihan 4: Percabangan if-else
 
-function hitung(a, b) {
-    let tambah = a + b;
-    let kurang = a - b;
-    let kali = a * b;
-    let bagi = a / b;
+let nilai = Number(prompt("Masukkan nilai kamu:"));
 
-    console.log("Penjumlahan: " + tambah);
-    console.log("Pengurangan: " + kurang);
-    console.log("Perkalian: " + kali);
-    console.log("Pembagian: " + bagi);
+if (nilai >= 75) {
+    alert("Selamat, kamu lulus!");
+} else {
+    alert("Maaf, kamu belum lulus.");
 }
-
-let angka1 = Number(prompt("Masukkan angka pertama:"));
-let angka2 = Number(prompt("Masukkan angka kedua:"));
-
-hitung(angka1, angka2);
