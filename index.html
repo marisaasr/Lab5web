@@ -3,30 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan 8 - Menu Makanan</title>
+    <title>Kalkulator Nilai Mahasiswa</title>
 </head>
 <body>
-    <h2>Daftar Menu Makanan</h2>
+    <h1>Kalkulator Nilai Mahasiswa</h1>
 
-    <label>
-        <input type="checkbox" class="menu" value="5000">
-        Ayam Goreng - Rp5.000
-    </label>
-    <br>
+    <form id="formNilai">
+        <label for="tugas">Nilai Tugas (30%):</label>
+        <input type="number" id="tugas" min="0" max="100" required>
+        <br><br>
 
-    <label>
-        <input type="checkbox" class="menu" value="500">
-        Tempe - Rp500
-    </label>
-    <br>
+        <label for="uts">Nilai UTS (30%):</label>
+        <input type="number" id="uts" min="0" max="100" required>
+        <br><br>
 
-    <label>
-        <input type="checkbox" class="menu" value="2500">
-        Telur Dadar - Rp2.500
-    </label>
-    <br>
+        <label for="uas">Nilai UAS (40%):</label>
+        <input type="number" id="uas" min="0" max="100" required>
+        <br><br>
 
-    <p>Total: Rp<span id="total">0</span></p>
+        <button type="submit">Hitung Nilai</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <div id="hasil" aria-live="polite"></div>
 
     <script src="script.js"></script>
 </body>
