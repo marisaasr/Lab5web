@@ -1,25 +1,17 @@
-// Latihan 5: Pemilihan Menu menggunakan Switch Case
+// Latihan 6: Form Bilangan Genap atau Ganjil
 
-let pilihan = prompt(
-    "Pilih menu makanan:\n" +
-    "1. Nasi Goreng\n" +
-    "2. Mie Ayam\n" +
-    "3. Bakso"
-);
+const form = document.getElementById("formBilangan");
+const inputBilangan = document.getElementById("bilangan");
+const hasil = document.getElementById("hasil");
 
-switch (pilihan) {
-    case "1":
-        alert("Kamu memilih Nasi Goreng");
-        break;
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
 
-    case "2":
-        alert("Kamu memilih Mie Ayam");
-        break;
+    const bilangan = Number(inputBilangan.value);
 
-    case "3":
-        alert("Kamu memilih Bakso");
-        break;
-
-    default:
-        alert("Pilihan tidak tersedia");
-}
+    if (bilangan % 2 === 0) {
+        hasil.textContent = bilangan + " adalah bilangan genap.";
+    } else {
+        hasil.textContent = bilangan + " adalah bilangan ganjil.";
+    }
+});
