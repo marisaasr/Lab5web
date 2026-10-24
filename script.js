@@ -1,5 +1,25 @@
-// Latihan 1: Menampilkan output
+// Latihan 5: Pemilihan Menu menggunakan Switch Case
 
-document.getElementById("pesan").textContent = "Hello World";
+let pilihan = prompt(
+    "Pilih menu makanan:\n" +
+    "1. Nasi Goreng\n" +
+    "2. Mie Ayam\n" +
+    "3. Bakso"
+);
 
-console.log("Hello World");
+switch (pilihan) {
+    case "1":
+        alert("Kamu memilih Nasi Goreng");
+        break;
+
+    case "2":
+        alert("Kamu memilih Mie Ayam");
+        break;
+
+    case "3":
+        alert("Kamu memilih Bakso");
+        break;
+
+    default:
+        alert("Pilihan tidak tersedia");
+}
