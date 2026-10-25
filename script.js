@@ -1,5 +1,13 @@
-// Eksperimen 2: Tabel Perkalian 7
+// Eksperimen 1: Operasi Aritmetika
 
-for (let i = 1; i <= 10; i++) {
-    console.log("7 x " + i + " = " + (7 * i));
+function hitung(a, b) {
+    console.log("Penjumlahan:", a + b);
+    console.log("Pengurangan:", a - b);
+    console.log("Perkalian:", a * b);
+    console.log("Pembagian:", a / b);
 }
+
+const angka1 = Number(prompt("Masukkan angka pertama:"));
+const angka2 = Number(prompt("Masukkan angka kedua:"));
+
+hitung(angka1, angka2);
