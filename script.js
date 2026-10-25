@@ -1,15 +1,14 @@
-// Eksperimen 4: Validasi Form
+// Eksperimen: Menampilkan dan Menyembunyikan Elemen
 
-const form = document.getElementById("formNama");
-const nama = document.getElementById("nama");
-const hasil = document.getElementById("hasil");
+const teks = document.getElementById("teks");
+const tombol = document.getElementById("tombol");
 
-form.addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    if (nama.value.trim() === "") {
-        hasil.textContent = "Nama tidak boleh kosong!";
+tombol.addEventListener("click", function() {
+    if (teks.style.display === "none") {
+        teks.style.display = "block";
+        tombol.textContent = "Sembunyikan";
     } else {
-        hasil.textContent = "Halo, " + nama.value.trim() + "!";
+        teks.style.display = "none";
+        tombol.textContent = "Tampilkan";
     }
 });
