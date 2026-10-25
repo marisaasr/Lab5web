@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eksperimen 1 - Operasi Aritmetika</title>
+    <title>Eksperimen 4 - Validasi Form</title>
 </head>
 <body>
-    <h1>Eksperimen 1 - Operasi Aritmetika</h1>
-    <p>Hasil perhitungan dapat dilihat di Console browser.</p>
+    <h2>Form Validasi Nama</h2>
+
+    <form id="formNama">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" required>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <p id="hasil"></p>
 
     <script src="script.js"></script>
 </body>

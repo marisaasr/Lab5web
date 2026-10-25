@@ -1,9 +1,15 @@
-// Eksperimen 3: Mengecek Bilangan Genap
+// Eksperimen 4: Validasi Form
 
-function cekGenap(angka) {
-    return angka % 2 === 0;
-}
+const form = document.getElementById("formNama");
+const nama = document.getElementById("nama");
+const hasil = document.getElementById("hasil");
 
-console.log("4 genap?", cekGenap(4));
-console.log("7 genap?", cekGenap(7));
-console.log("10 genap?", cekGenap(10));
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    if (nama.value.trim() === "") {
+        hasil.textContent = "Nama tidak boleh kosong!";
+    } else {
+        hasil.textContent = "Halo, " + nama.value.trim() + "!";
+    }
+});
