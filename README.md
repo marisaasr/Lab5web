@@ -2,39 +2,35 @@
 
 ## 1. Deskripsi Proyek
 
-Repositori ini berisi kumpulan hasil praktikum mata kuliah **Pemrograman Web**. Praktikum ini bertujuan untuk mempelajari dasar-dasar pemrograman web menggunakan HTML dan JavaScript.
+Repositori ini berisi hasil praktikum mata kuliah Pemrograman Web. Praktikum ini membahas dasar-dasar JavaScript dan penerapannya pada halaman web menggunakan HTML.
 
-Materi yang dikerjakan meliputi pengenalan JavaScript, penggunaan dialog interaktif, fungsi, operasi aritmetika, percabangan, pemilihan kondisi, pengolahan input pengguna, manipulasi DOM, serta pembuatan program sederhana.
+Materi yang dipelajari meliputi pengenalan JavaScript, dialog interaktif, fungsi, operasi aritmetika, percabangan, pemilihan kondisi, pengolahan input, manipulasi DOM, dan validasi form.
 
-Setiap latihan dan eksperimen dikerjakan untuk memahami cara kerja JavaScript dalam membuat halaman web menjadi lebih interaktif.
+Repositori ini juga digunakan untuk menyimpan hasil pengerjaan latihan, eksperimen mandiri, dan mini project menggunakan Git dan GitHub.
 
 ## 2. Tujuan Praktikum
 
-Tujuan dari praktikum ini adalah:
+Tujuan praktikum ini adalah:
 
-- Memahami dasar-dasar penggunaan JavaScript pada halaman web.
+- Memahami dasar-dasar JavaScript.
 - Memahami penggunaan variabel, fungsi, dan operator aritmetika.
-- Menerapkan percabangan untuk menentukan hasil berdasarkan kondisi tertentu.
-- Menggunakan struktur pemilihan `switch-case`.
-- Mengolah input dari pengguna melalui form.
-- Memahami manipulasi DOM untuk mengubah elemen HTML.
-- Membuat program sederhana berdasarkan materi yang telah dipelajari.
-- Menggunakan Git dan GitHub untuk menyimpan serta mengelola riwayat perubahan kode program.
+- Menerapkan percabangan dan pemilihan kondisi.
+- Mengolah input dari pengguna.
+- Memahami manipulasi DOM pada halaman web.
+- Membuat program sederhana menggunakan JavaScript.
+- Menerapkan validasi form.
+- Menggunakan Git dan GitHub untuk menyimpan serta mengelola perubahan kode.
 
 ## 3. Teknologi dan Tools
 
-Teknologi dan perangkat yang digunakan dalam praktikum ini meliputi:
-
-- **HTML5** — untuk menyusun struktur halaman web.
-- **JavaScript** — untuk menambahkan logika dan interaksi pada halaman web.
-- **Visual Studio Code** — sebagai editor kode program.
-- **Web Browser** — untuk menjalankan dan menguji halaman web.
-- **Git** — untuk mengelola versi kode program.
-- **GitHub** — untuk menyimpan repositori dan riwayat perubahan kode secara online.
+- **HTML5:** Membuat struktur halaman web.
+- **JavaScript:** Menambahkan logika dan interaksi pada halaman web.
+- **Visual Studio Code:** Menulis dan mengedit kode program.
+- **Web Browser:** Menjalankan dan menguji program.
+- **Git:** Mengelola versi kode program.
+- **GitHub:** Menyimpan repositori secara online.
 
 ## 4. Struktur File
-
-Berikut merupakan struktur utama repositori:
 
 ```text
 Lab5Web/
@@ -46,127 +42,318 @@ Lab5Web/
 
 Keterangan:
 
-- `index.html`: Berisi struktur halaman web yang digunakan untuk menjalankan latihan.
-- `script.js`: Berisi kode JavaScript untuk menjalankan fungsi dan logika program.
-- `README.md`: Berisi dokumentasi mengenai praktikum dan cara menjalankan program.
-- `screenshots/`: Digunakan untuk menyimpan dokumentasi gambar hasil praktikum apabila diperlukan.
+- `index.html`: Berisi struktur halaman web.
+- `script.js`: Berisi kode JavaScript untuk latihan dan eksperimen.
+- `README.md`: Berisi dokumentasi praktikum.
+- `screenshots/`: Digunakan untuk menyimpan screenshot hasil praktikum.
 
-**Catatan:** File `screenshots/` dapat ditambahkan setelah seluruh latihan selesai dan gambar hasil praktikum sudah dikumpulkan.
+Folder `screenshots/` dapat ditambahkan setelah dokumentasi hasil praktikum selesai dikumpulkan.
 
 ## 5. Daftar Praktikum
 
 ### A. Latihan
 
-Latihan praktikum yang dikerjakan mencakup materi berikut:
-
 1. **Pengenalan JavaScript**  
    Mempelajari cara menambahkan dan menjalankan JavaScript pada halaman HTML.
 
 2. **Alert dan Prompt**  
-   Mempelajari penggunaan dialog untuk menampilkan pesan serta menerima input dari pengguna.
+   Mempelajari cara menampilkan pesan dan menerima input dari pengguna menggunakan dialog.
 
 3. **Function dan Operasi Aritmetika**  
-   Mempelajari pembuatan fungsi serta penerapan operasi aritmetika dalam JavaScript.
+   Mempelajari pembuatan fungsi dan penerapan operasi aritmetika.
 
 4. **Percabangan If-Else**  
-   Menggunakan kondisi `if-else` untuk menentukan tindakan berdasarkan nilai atau kondisi tertentu.
+   Menggunakan kondisi untuk menentukan tindakan berdasarkan hasil evaluasi suatu ekspresi.
 
 5. **Pemilihan Menu dengan Switch-Case**  
-   Menggunakan struktur `switch-case` untuk menjalankan pilihan program berdasarkan input pengguna.
+   Menggunakan `switch-case` untuk menjalankan perintah berdasarkan pilihan pengguna.
 
 6. **Form Bilangan Genap atau Ganjil**  
-   Mengolah input angka dari pengguna dan menentukan apakah angka tersebut termasuk bilangan genap atau ganjil.
+   Membuat program untuk menentukan apakah angka yang dimasukkan termasuk bilangan genap atau ganjil.
 
 7. **Mengubah Warna Halaman**  
    Mempelajari cara mengubah warna halaman web menggunakan JavaScript.
 
 8. **DOM dan Checkbox Menu Makanan**  
-   Mempelajari interaksi dengan elemen HTML menggunakan DOM serta pengolahan pilihan menu melalui checkbox.
+   Mempelajari interaksi dengan elemen HTML menggunakan DOM dan checkbox.
 
 ### B. Mini Project
 
 **Kalkulator Nilai Mahasiswa**
 
-Mini project ini bertujuan untuk menerapkan materi JavaScript dalam sebuah program sederhana yang berkaitan dengan pengolahan nilai mahasiswa.
-
-Program dikembangkan sebagai latihan penerapan logika dan pengolahan data berdasarkan kebutuhan program.
+Mini project ini menerapkan konsep JavaScript untuk mengolah nilai mahasiswa berdasarkan input yang diberikan.
 
 ### C. Eksperimen Mandiri
 
-Eksperimen mandiri dilakukan untuk memperdalam pemahaman terhadap materi JavaScript melalui pengembangan dan pengujian kode secara mandiri.
+Eksperimen mandiri dikerjakan sesuai instruksi dan nomor yang tercantum dalam modul praktikum.
 
-Eksperimen yang dikerjakan mengikuti instruksi pada modul praktikum, termasuk nomor eksperimen yang ditugaskan.
+Bagian ini bertujuan memperdalam pemahaman tentang JavaScript melalui pengujian dan pengembangan program secara mandiri.
 
-Bagian ini dapat dilengkapi dengan rincian setiap eksperimen setelah seluruh pengerjaan selesai.
+## 6. Pertanyaan dan Tugas
 
-## 6. Cara Menjalankan Program
+### 1. Jelaskan perbedaan `console.log()`, `alert()`, `prompt()`, dan `textContent/innerHTML`.
 
-Berikut langkah-langkah untuk menjalankan program:
+- **`console.log()`** digunakan untuk menampilkan informasi pada Console browser. Biasanya digunakan untuk memeriksa nilai variabel atau membantu proses debugging.
+- **`alert()`** digunakan untuk menampilkan pesan dalam kotak dialog kepada pengguna.
+- **`prompt()`** digunakan untuk meminta input dari pengguna melalui kotak dialog. Hasil input biasanya berupa string atau `null` jika dibatalkan.
+- **`textContent`** digunakan untuk membaca atau mengubah teks pada elemen HTML.
+- **`innerHTML`** digunakan untuk membaca atau mengubah isi HTML di dalam suatu elemen.
 
-1. Buka folder repositori `Lab5Web` menggunakan Visual Studio Code.
-2. Pastikan file `index.html` dan `script.js` tersedia.
-3. Buka file `index.html` menggunakan web browser atau ekstensi Live Server.
-4. Jalankan latihan yang ingin diuji.
-5. Ikuti instruksi pada halaman, misalnya memasukkan angka, memilih menu, atau menekan tombol.
-6. Periksa hasil yang ditampilkan pada halaman web.
-7. Jika terdapat perubahan kode, simpan file terlebih dahulu sebelum menjalankan ulang program.
+Contoh:
 
-**Penting:** Karena file `index.html` dan `script.js` digunakan bergantian untuk beberapa latihan, pastikan kode yang sedang dibuka sesuai dengan latihan yang ingin dijalankan.
+```javascript
+console.log("Halo dunia!");
 
-## 7. Penggunaan Git dan GitHub
+alert("Selamat datang!");
 
-Git dan GitHub digunakan untuk mengelola serta menyimpan hasil praktikum.
+let nama = prompt("Masukkan nama:");
 
-Setiap perubahan kode dapat disimpan sebagai commit agar riwayat pengerjaan dapat ditinjau kembali.
+document.getElementById("hasil").textContent = nama;
+```
 
-Perintah dasar Git yang digunakan:
+Perbedaan utama `textContent` dan `innerHTML` adalah `textContent` memperlakukan isi sebagai teks, sedangkan `innerHTML` dapat membaca atau membuat elemen HTML. Oleh karena itu, input pengguna tidak boleh langsung dimasukkan ke `innerHTML` tanpa penanganan yang aman.
+
+### 2. Apa perbedaan `let` dan `const`? Berikan contoh.
+
+`let` digunakan untuk membuat variabel yang nilainya dapat diubah, sedangkan `const` digunakan untuk membuat variabel yang tidak dapat ditugaskan ulang setelah diinisialisasi.
+
+Contoh:
+
+```javascript
+let umur = 20;
+umur = 21;
+
+const nama = "Marisa";
+
+console.log(umur);
+console.log(nama);
+```
+
+Pada contoh tersebut, nilai `umur` dapat diubah menjadi `21`, sedangkan variabel `nama` tidak dapat ditugaskan ulang.
+
+Catatan: Jika `const` berisi objek atau array, properti atau isinya masih dapat diubah meskipun variabelnya tidak dapat ditugaskan ulang.
+
+### 3. Apa perbedaan operator `==` dan `===`?
+
+Operator `==` membandingkan nilai dengan memungkinkan konversi tipe data, sedangkan operator `===` membandingkan nilai sekaligus tipe datanya tanpa melakukan konversi tipe secara otomatis.
+
+Contoh:
+
+```javascript
+console.log(5 == "5");  // true
+console.log(5 === "5"); // false
+```
+
+Pada contoh tersebut, `5 == "5"` menghasilkan `true` karena nilai dibandingkan setelah konversi tipe. Sementara itu, `5 === "5"` menghasilkan `false` karena angka `5` dan string `"5"` memiliki tipe data berbeda.
+
+Operator `===` umumnya lebih disarankan untuk menghindari hasil perbandingan yang tidak diinginkan akibat konversi tipe data.
+
+### 4. Jelaskan fungsi `if-else` dan `switch`. Kapan masing-masing dapat digunakan?
+
+**`if-else`** digunakan untuk menjalankan perintah berdasarkan kondisi yang bernilai benar atau salah. Struktur ini cocok untuk memeriksa rentang nilai, beberapa kondisi, atau ekspresi logika.
+
+Contoh:
+
+```javascript
+let nilai = 80;
+
+if (nilai >= 75) {
+    console.log("Lulus");
+} else {
+    console.log("Tidak lulus");
+}
+```
+
+**`switch`** digunakan untuk memilih salah satu tindakan berdasarkan nilai suatu ekspresi yang dibandingkan dengan beberapa pilihan menggunakan pencocokan ketat.
+
+Contoh:
+
+```javascript
+let menu = 2;
+
+switch (menu) {
+    case 1:
+        console.log("Menu makanan");
+        break;
+    case 2:
+        console.log("Menu minuman");
+        break;
+    default:
+        console.log("Pilihan tidak tersedia");
+}
+```
+
+`if-else` lebih sesuai untuk kondisi kompleks atau rentang nilai, sedangkan `switch` cocok untuk pilihan dengan beberapa nilai tertentu.
+
+### 5. Apa fungsi parameter dan `return` dalam function?
+
+**Parameter** adalah variabel yang digunakan untuk menerima data ketika fungsi dipanggil. Parameter membuat fungsi dapat digunakan dengan input yang berbeda.
+
+**`return`** digunakan untuk mengembalikan hasil dari fungsi kepada bagian program yang memanggilnya. Setelah `return` dijalankan, fungsi selesai pada bagian tersebut.
+
+Contoh:
+
+```javascript
+function tambah(a, b) {
+    return a + b;
+}
+
+let hasil = tambah(5, 3);
+
+console.log(hasil);
+```
+
+Pada contoh tersebut, `a` dan `b` merupakan parameter. Fungsi `tambah()` mengembalikan hasil penjumlahan melalui `return`, sehingga nilai `hasil` adalah `8`.
+
+### 6. Bagaimana JavaScript memilih elemen HTML menggunakan `document.getElementById()`?
+
+`document.getElementById()` digunakan untuk memilih elemen HTML berdasarkan atribut `id` yang dimilikinya.
+
+Contoh HTML:
+
+```html
+<p id="pesan">Teks awal</p>
+```
+
+Contoh JavaScript:
+
+```javascript
+document.getElementById("pesan").textContent = "Teks berubah";
+```
+
+JavaScript mencari elemen dengan `id="pesan"`, kemudian mengubah teksnya menjadi "Teks berubah".
+
+Jika elemen dengan ID tersebut tidak ditemukan, hasil pemanggilan `getElementById()` adalah `null`. Karena itu, elemen harus tersedia ketika kode dijalankan.
+
+### 7. Buat script untuk memvalidasi form agar nama tidak kosong dan nilai berada pada rentang 0–100.
+
+Validasi dilakukan untuk memastikan nama telah diisi dan nilai yang dimasukkan berupa angka dalam rentang 0 sampai 100.
+
+Contoh implementasi lengkap:
+
+**File `index.html`**
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi Form Mahasiswa</title>
+</head>
+<body>
+    <h2>Form Data Mahasiswa</h2>
+
+    <form id="formMahasiswa">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+        <br><br>
+
+        <label for="nilai">Nilai (0–100):</label>
+        <input type="number" id="nilai" name="nilai" min="0" max="100" step="any">
+        <br><br>
+
+        <button type="submit">Periksa</button>
+    </form>
+
+    <p id="hasil"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+**File `script.js`**
+
+```javascript
+document.getElementById("formMahasiswa").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const nama = document.getElementById("nama").value.trim();
+    const nilaiInput = document.getElementById("nilai").value;
+    const hasil = document.getElementById("hasil");
+
+    if (nama === "") {
+        hasil.textContent = "Nama tidak boleh kosong.";
+        return;
+    }
+
+    if (nilaiInput.trim() === "") {
+        hasil.textContent = "Nilai harus diisi.";
+        return;
+    }
+
+    const nilai = Number(nilaiInput);
+
+    if (!Number.isFinite(nilai) || nilai < 0 || nilai > 100) {
+        hasil.textContent = "Nilai harus berupa angka dari 0 sampai 100.";
+        return;
+    }
+
+    hasil.textContent = "Data valid. Nama: " + nama + ", Nilai: " + nilai;
+});
+```
+
+**Penjelasan:**
+
+1. `addEventListener("submit", ...)` menjalankan validasi ketika form dikirim.
+2. `event.preventDefault()` mencegah form dikirim secara langsung sebelum validasi selesai.
+3. `trim()` menghapus spasi di awal dan akhir nama sehingga input yang hanya berisi spasi dianggap kosong.
+4. `Number()` mengubah input nilai menjadi angka.
+5. `Number.isFinite()` memastikan hasil konversi merupakan angka yang valid.
+6. Kondisi `nilai < 0 || nilai > 100` menolak nilai di luar rentang yang ditentukan.
+7. `textContent` menampilkan hasil validasi kepada pengguna.
+
+Form dinyatakan valid jika nama telah diisi dan nilai berada dalam rentang 0 sampai 100.
+
+## 7. Cara Menjalankan Program
+
+1. Buka folder `Lab5Web` menggunakan Visual Studio Code.
+2. Buka file `index.html` dan `script.js`.
+3. Jalankan `index.html` menggunakan web browser atau ekstensi Live Server.
+4. Lakukan pengujian sesuai latihan yang ingin dijalankan.
+5. Periksa hasil program pada halaman web atau Console browser.
+
+**Catatan:** Karena file `index.html` dan `script.js` digunakan bergantian untuk beberapa latihan, sesuaikan kode yang sedang aktif dengan latihan yang ingin dijalankan. Untuk menjalankan contoh validasi pada soal nomor 7, gunakan kode yang tercantum pada bagian tersebut.
+
+## 8. Penggunaan Git dan GitHub
+
+Git dan GitHub digunakan untuk menyimpan kode program serta mengelola riwayat perubahan.
+
+Perintah dasar yang digunakan:
 
 ```bash
-git add index.html script.js
-git commit -m "Deskripsi perubahan"
+git add index.html script.js README.md
+git commit -m "Memperbarui praktikum dan dokumentasi"
 git push origin main
 ```
 
 Keterangan:
 
 - `git add`: Memasukkan perubahan file ke tahap staging.
-- `git commit`: Menyimpan perubahan ke dalam riwayat Git.
+- `git commit`: Menyimpan perubahan ke riwayat Git.
 - `git push`: Mengirim commit ke repositori GitHub.
 
-Contoh pesan commit:
+Setiap latihan dapat disimpan menggunakan commit dengan pesan yang sesuai. Riwayat commit membantu melihat perubahan kode yang telah disimpan sebelumnya.
 
-```text
-Latihan 1 - Pengenalan JavaScript
-Latihan 2 - Alert dan Prompt
-Latihan 3 - Function dan Operasi Aritmetika
-Latihan 4 - Percabangan If-Else
-Latihan 5 - Pemilihan Menu Switch-Case
-Latihan 6 - Form Bilangan Genap atau Ganjil
-Latihan 7 - Mengubah Warna Halaman
-Latihan 8 - DOM dan Checkbox Menu Makanan
-Mini Project - Kalkulator Nilai Mahasiswa
-Eksperimen Mandiri - [Nomor dan Nama Eksperimen]
-```
+## 9. Dokumentasi Hasil Praktikum
 
-Riwayat commit dapat digunakan untuk melihat perubahan kode yang sudah disimpan sebelumnya, selama perubahan tersebut telah di-commit.
+Screenshot hasil praktikum dapat disimpan dalam folder `screenshots/`.
 
-## 8. Dokumentasi Hasil Praktikum
+Dokumentasi sebaiknya menunjukkan:
 
-Dokumentasi praktikum berupa screenshot dapat ditambahkan ke dalam folder `screenshots/`.
+- Tampilan program ketika dijalankan.
+- Input yang digunakan saat pengujian.
+- Output atau hasil program.
+- Hasil pengujian validasi form.
+- Tampilan lain yang diminta dalam modul praktikum.
 
-Screenshot digunakan sebagai bukti bahwa program telah dijalankan dan hasilnya sesuai dengan instruksi praktikum.
+Screenshot digunakan sebagai bukti bahwa program telah dijalankan dan diuji.
 
-Dokumentasi sebaiknya memperlihatkan:
+## 10. Kesimpulan
 
-- Halaman program yang dijalankan.
-- Input yang dimasukkan ketika melakukan pengujian.
-- Hasil atau output program.
-- Tampilan yang menunjukkan keberhasilan setiap latihan atau eksperimen.
+Melalui praktikum ini, mahasiswa mempelajari penggunaan JavaScript untuk membangun halaman web yang interaktif. Materi yang dipelajari meliputi dialog interaktif, variabel, fungsi, operator, percabangan, pemilihan kondisi, manipulasi DOM, serta validasi form.
 
-## 9. Kesimpulan
+Praktikum juga memberikan pengalaman menggunakan Git dan GitHub untuk menyimpan hasil pengerjaan dan mengelola riwayat perubahan kode.
 
-Melalui praktikum ini, mahasiswa dapat mempelajari penerapan dasar JavaScript untuk membangun halaman web yang interaktif. Materi yang dipelajari mencakup fungsi, operasi aritmetika, percabangan, pemilihan kondisi, pengolahan input, dan manipulasi DOM.
-
-Penggunaan Git dan GitHub juga membantu dalam menyimpan hasil pengerjaan serta mengelola riwayat perubahan kode program.
-
-Praktikum ini menjadi dasar untuk mempelajari pengembangan web yang lebih kompleks pada materi selanjutnya.
+Materi ini menjadi dasar untuk mempelajari pengembangan web yang lebih kompleks.
