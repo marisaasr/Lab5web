@@ -1,13 +1,9 @@
-// Eksperimen 1: Operasi Aritmetika
+// Eksperimen 3: Mengecek Bilangan Genap
 
-function hitung(a, b) {
-    console.log("Penjumlahan:", a + b);
-    console.log("Pengurangan:", a - b);
-    console.log("Perkalian:", a * b);
-    console.log("Pembagian:", a / b);
+function cekGenap(angka) {
+    return angka % 2 === 0;
 }
 
-const angka1 = Number(prompt("Masukkan angka pertama:"));
-const angka2 = Number(prompt("Masukkan angka kedua:"));
-
-hitung(angka1, angka2);
+console.log("4 genap?", cekGenap(4));
+console.log("7 genap?", cekGenap(7));
+console.log("10 genap?", cekGenap(10));
